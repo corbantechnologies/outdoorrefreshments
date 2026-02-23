@@ -228,7 +228,7 @@ const ServicesPage = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Link href="/#contact">
-                    <Button variant="copper" size="xl" className="text-white hover:text-white">
+                    <Button size="xl" className="text-white bg-primary hover:bg-primary/80 hover:text-white">
                       Get in Touch
                       <ArrowRight className="ml-2 h-5 w-5" />
                     </Button>
