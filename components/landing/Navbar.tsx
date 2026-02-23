@@ -49,11 +49,12 @@ const Navbar = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/logo.png"
+              src="/logo-v2.png"
               alt="Outdoor Refreshments Logo"
-              width={200}
-              height={60}
-              className="object-contain mix-blend-multiply"
+              width={180}
+              height={48}
+              className="object-contain h-10 sm:h-12 w-auto mix-blend-darken"
+              priority
             />
           </Link>
 

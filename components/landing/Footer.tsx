@@ -40,11 +40,11 @@ const Footer = () => {
             <Link href="/" className="inline-block mb-4">
               <div className="flex items-center gap-3">
                 <Image
-                  src="/logo.png"
+                  src="/logo-v2.png"
                   alt="Outdoor Refreshments Logo"
                   width={200}
-                  height={60}
-                  className="object-contain mix-blend-multiply"
+                  height={200}
+                  className="object-contain h-12 lg:h-16 w-auto mix-blend-darken"
                 />
               </div>
             </Link>
