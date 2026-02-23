@@ -1,15 +1,16 @@
 import { Instagram, Linkedin, Twitter } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const footerLinks = {
     services: [
-      { name: "Culinary Events", href: "#" },
-      { name: "Wine & Beverage", href: "#" },
-      { name: "International Summits", href: "#" },
-      { name: "Corporate Events", href: "#" },
+      { name: "Outside Catering", href: "#" },
+      { name: "Event Management", href: "#" },
+      { name: "Premium Cocktail Bar", href: "#" },
+      { name: "Fresh Supply", href: "#" },
     ],
     company: [
       { name: "About Us", href: "#about" },
@@ -31,15 +32,21 @@ const Footer = () => {
   ];
 
   return (
-    <footer className=" bg-charcoal text-warm-white py-16 lg:py-20">
+    <footer className=" bg-[#d5d5d5] text-warm-white py-16 lg:py-20">
       <div className="mx-auto container px-4 lg:px-8">
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 mb-12">
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="inline-block mb-4">
-              <span className="font-display text-2xl font-semibold">
-                Outdoor<span className="text-copper-light">Refreshments</span>
-              </span>
+              <div className="flex items-center gap-3">
+                <Image
+                  src="/logo-v2.png"
+                  alt="Outdoor Refreshments Logo"
+                  width={200}
+                  height={200}
+                  className="object-contain h-12 lg:h-16 w-auto mix-blend-darken"
+                />
+              </div>
             </Link>
             <p className="font-body text-warm-white/70 text-sm leading-relaxed max-w-sm mb-6">
               Crafting unforgettable culinary experiences and hospitality events

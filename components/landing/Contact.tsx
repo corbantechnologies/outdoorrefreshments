@@ -12,7 +12,7 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+254710584581",
+    value: "+254 742 492 500",
   },
   {
     icon: MapPin,
@@ -23,8 +23,8 @@ const contactInfo = [
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-24 lg:py-32 bg-background">
-      <div className="container px-4 lg:px-8">
+    <section id="contact" className="py-24 lg:py-32 bg-background w-full">
+      <div className="container px-4 lg:px-8 mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left Content */}
           <div>

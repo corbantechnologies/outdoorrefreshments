@@ -1,41 +1,40 @@
-"use client";
-import { UtensilsCrossed, Wine, Globe, Calendar } from "lucide-react";
+import { ChefHat, CalendarDays, Martini, Coffee } from "lucide-react";
 
 const services = [
   {
-    icon: UtensilsCrossed,
-    title: "Culinary Events",
+    icon: ChefHat,
+    title: "Outside Catering",
     description:
-      "Interactive cooking workshops, chef demonstrations, and gastronomic experiences that engage and inspire your guests.",
+      "Custom-crafted menus featuring international and local cuisines, prepared with organic, fresh ingredients. We handle everything from intimate home dinners to large-scale corporate functions.",
   },
   {
-    icon: Wine,
-    title: "Food & Beverage",
+    icon: CalendarDays,
+    title: "Event Management",
     description:
-      "Curated wine tastings, cocktail masterclasses, and bespoke beverage programs tailored to your event&apos;s theme.",
+      "Comprehensive planning from concept to execution, including décor, staging, lighting, and on-site logistics.",
   },
   {
-    icon: Globe,
-    title: "International Summits",
+    icon: Martini,
+    title: "Premium Cocktail Bar",
     description:
-      "World-class hospitality conferences and trade shows bringing together industry leaders from across the globe.",
+      "Professional mixology services with signature handcrafted cocktails, mocktails, and interactive drink stations.",
   },
   {
-    icon: Calendar,
-    title: "Corporate Events",
+    icon: Coffee,
+    title: "Fresh Supply",
     description:
-      "From intimate board dinners to large-scale celebrations, we create memorable experiences for your team and clients.",
+      "Daily delivery of cold-pressed juices, specialty coffees, and artisan refreshments tailored for corporate meetings or social gatherings.",
   },
 ];
 
 const Services = () => {
   return (
-    <section id="services" className="py-24 lg:py-32 bg-gradient-warm">
-      <div className="container px-4 lg:px-8">
+    <section id="services" className="py-24 bg-[#f7f7f7] lg:py-32 w-full">
+      <div className="container mx-auto px-4 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <p className="font-body text-primary text-sm uppercase tracking-[0.2em] mb-4">
-            What We Do
+            Core Services
           </p>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground mb-6">
             Exceptional Events, <span className="italic">Exquisite Taste</span>
