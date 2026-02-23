@@ -12,7 +12,7 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+254710584581",
+    value: "+254 742 492 500",
   },
   {
     icon: MapPin,

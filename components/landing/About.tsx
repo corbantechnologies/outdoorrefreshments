@@ -34,36 +34,34 @@ const About = () => {
           {/* Content */}
           <div>
             <p className="font-body text-primary text-sm uppercase tracking-[0.2em] mb-4">
-              About Us
+              Executive Summary
             </p>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground mb-6 leading-tight">
               Where Passion Meets
               <span className="block italic text-primary">Precision</span>
             </h2>
-            <p className="font-body text-muted-foreground text-lg mb-6 leading-relaxed">
-              Saveur Events was founded with a singular vision: to transform the
-              way the hospitality industry celebrates, connects, and grows. We
-              believe that every event should be a masterpiece of culinary
-              artistry and flawless execution.
-            </p>
-            <p className="font-body text-muted-foreground mb-8 leading-relaxed">
-              Our team combines deep industry knowledge with creative
-              innovation, ensuring that whether you&apos;re hosting 20 guests or
-              2,000, your event exceeds expectations in every detail.
-            </p>
+            
+            <div className="space-y-6">
+              <div>
+                <h3 className="font-display text-xl font-semibold text-foreground mb-2">Our Story</h3>
+                <p className="font-body text-muted-foreground leading-relaxed">
+                  Outdoor Refreshments was established to redefine hospitality by bringing world-class culinary and mixology experiences to any location. We bridge the gap between high-end restaurant quality and the flexibility of off-site events.
+                </p>
+              </div>
+              
+              <div>
+                <h3 className="font-display text-xl font-semibold text-foreground mb-2">Our Mission</h3>
+                <p className="font-body text-muted-foreground leading-relaxed">
+                  To deliver seamless, memorable events through exquisite cuisine, innovative liquid catering, and flawless coordination.
+                </p>
+              </div>
 
-            {/* Highlights */}
-            <div className="grid sm:grid-cols-2 gap-4">
-              {highlights.map((item) => (
-                <div key={item} className="flex items-center gap-3">
-                  <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Check className="w-4 h-4 text-primary" />
-                  </div>
-                  <span className="font-body text-sm text-foreground">
-                    {item}
-                  </span>
-                </div>
-              ))}
+              <div>
+                <h3 className="font-display text-xl font-semibold text-foreground mb-2">Our Vision</h3>
+                <p className="font-body text-muted-foreground leading-relaxed">
+                  To be the premier choice for clients who demand elegance, creativity, and fresh, locally sourced refreshments.
+                </p>
+              </div>
             </div>
           </div>
         </div>

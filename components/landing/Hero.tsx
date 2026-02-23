@@ -46,13 +46,6 @@ const Hero = () => {
               Explore Our Services
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button
-              variant="hero-outline"
-              size="xl"
-              className="border-warm-white/30 text-warm-white hover:bg-warm-white hover:text-foreground"
-            >
-              View Past Events
-            </Button>
           </div>
         </div>
       </div>

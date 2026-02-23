@@ -6,10 +6,10 @@ const Footer = () => {
 
   const footerLinks = {
     services: [
-      { name: "Culinary Events", href: "#" },
-      { name: "Wine & Beverage", href: "#" },
-      { name: "International Summits", href: "#" },
-      { name: "Corporate Events", href: "#" },
+      { name: "Outside Catering", href: "#" },
+      { name: "Event Management", href: "#" },
+      { name: "Premium Cocktail Bar", href: "#" },
+      { name: "Fresh Supply", href: "#" },
     ],
     company: [
       { name: "About Us", href: "#about" },
