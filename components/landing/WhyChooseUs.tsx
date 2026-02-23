@@ -29,8 +29,8 @@ const reasons = [
 
 const WhyChooseUs = () => {
     return (
-        <section className="py-24 lg:py-32 bg-cream">
-            <div className="container px-4 lg:px-8">
+        <section className="py-24 bg-[#f7f7f7] lg:py-32 w-full">
+            <div className="container px-4 lg:px-8 mx-auto">
                 <div className="text-center max-w-2xl mx-auto mb-16">
                     <p className="font-body text-primary text-sm uppercase tracking-[0.2em] mb-4">
                         The Competitive Edge
@@ -53,7 +53,7 @@ const WhyChooseUs = () => {
                             <h3 className="font-display text-xl font-semibold text-foreground mb-3">
                                 {reason.title}
                             </h3>
-                            <p className="font-body text-muted-foreground text-sm leading-relaxed">
+                            <p className="font-body text-muted-foreground text-sm leading-relaxed text-[#d5d5d5]">
                                 {reason.description}
                             </p>
                         </div>

@@ -28,8 +28,8 @@ const steps = [
 
 const Process = () => {
     return (
-        <section className="py-24 lg:py-32 bg-background">
-            <div className="container px-4 lg:px-8">
+        <section className="py-24 lg:py-32 bg-background w-full">
+            <div className="container px-4 lg:px-8 mx-auto">
                 <div className="text-center max-w-2xl mx-auto mb-16">
                     <p className="font-body text-primary text-sm uppercase tracking-[0.2em] mb-4">
                         How It Works

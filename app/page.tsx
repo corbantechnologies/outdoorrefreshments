@@ -12,7 +12,7 @@ export default function Home() {
     <div className="min-h-screen bg-background text-foreground">
       <Navbar />
       <Hero />
-      <main className="mx-auto container">
+      <main>
         <Services />
         <About />
         <WhyChooseUs />

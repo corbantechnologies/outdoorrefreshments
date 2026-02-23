@@ -29,8 +29,8 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-24 lg:py-32 bg-gradient-warm">
-      <div className="container px-4 lg:px-8">
+    <section id="services" className="py-24 bg-[#f7f7f7] lg:py-32 w-full">
+      <div className="container mx-auto px-4 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <p className="font-body text-primary text-sm uppercase tracking-[0.2em] mb-4">

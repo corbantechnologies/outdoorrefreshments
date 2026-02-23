@@ -27,8 +27,8 @@ const events = [
 
 const FeaturedEvents = () => {
   return (
-    <section id="events" className="py-24 lg:py-32 bg-cream">
-      <div className="container px-4 lg:px-8">
+    <section id="events" className="py-24 lg:py-32 bg-cream w-full">
+      <div className="container px-4 lg:px-8 mx-auto">
         {/* Section Header */}
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-12">
           <div>

@@ -11,8 +11,8 @@ const highlights = [
 
 const About = () => {
   return (
-    <section id="about" className="py-24 lg:py-32 bg-background">
-      <div className="container px-4 lg:px-8">
+    <section id="about" className="py-24 lg:py-32 bg-background w-full">
+      <div className="container px-4 lg:px-8 mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Image */}
           <div className="relative">
