@@ -1,5 +1,6 @@
 import { Instagram, Linkedin, Twitter } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -37,9 +38,15 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="inline-block mb-4">
-              <span className="font-display text-2xl font-semibold">
-                Outdoor<span className="text-copper-light">Refreshments</span>
-              </span>
+              <div className="flex items-center gap-3">
+                <Image
+                  src="/logo.png"
+                  alt="Outdoor Refreshments Logo"
+                  width={200}
+                  height={60}
+                  className="object-contain mix-blend-multiply"
+                />
+              </div>
             </Link>
             <p className="font-body text-warm-white/70 text-sm leading-relaxed max-w-sm mb-6">
               Crafting unforgettable culinary experiences and hospitality events

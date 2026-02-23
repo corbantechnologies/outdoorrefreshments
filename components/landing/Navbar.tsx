@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {
@@ -47,9 +48,13 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className="font-display text-2xl font-semibold text-foreground">
-              Outdoor<span className="text-primary">Refreshments</span>
-            </span>
+            <Image
+              src="/logo.png"
+              alt="Outdoor Refreshments Logo"
+              width={200}
+              height={60}
+              className="object-contain mix-blend-multiply"
+            />
           </Link>
 
           {/* Desktop Navigation */}
